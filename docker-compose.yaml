@@ -1,0 +1,11 @@
+services:
+  triton:
+    build: .
+    ports:
+      - "8888:8888"
+      - "8000:8000"
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    stdin_open: true
+    tty: true

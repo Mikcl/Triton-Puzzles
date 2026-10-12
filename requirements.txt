@@ -1,0 +1,7 @@
+jax
+torch
+triton
+jaxtyping
+tilelens
+ipykernel
+jupyter
